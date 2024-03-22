@@ -80,7 +80,7 @@ const Speakers: React.FC<SpeakersProps> = ({ id }) => {
             <Image
               alt="Organizer"
               src={speaker?.image?.url || ""}
-              className="h-16 w-auto rounded-md"
+              className="md:h-16 h-10 w-auto rounded-md"
               width={50}
               height={50}
             />

@@ -135,7 +135,7 @@ const Home: React.FC<{ params: { id: string } }> = ({ params }) => {
                   </span>
                 </li>
                 {section === activeSection && (
-                  <div className="col-span-3 space-y-4 md:hidden bg-[#F9FAFB] rounded-md p-10">
+                  <div className="col-span-3 space-y-4 md:hidden bg-[#F9FAFB] rounded-md md:p-10 p-4">
                     {getStateWiseComponent()}
                   </div>
                 )}
