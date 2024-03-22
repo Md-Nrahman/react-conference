@@ -19,7 +19,7 @@ export default function Home() {
           className="-z-10 absolute w-[40vw] top-0 left-1/2 "
         />
         <div className="flex flex-col md:items-end items-center md:col-span-3 justify-center space-y-8">
-          <h1 className="text-7xl font-bold text-right">
+          <h1 className="lg:text-7xl md:text-5xl text-3xl font-bold text-right">
             <span className="relative">
               React
               <Image

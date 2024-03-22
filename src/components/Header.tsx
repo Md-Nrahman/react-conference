@@ -9,7 +9,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <nav className="flex items-center justify-between w-full px-24 py-16">
+      <nav className="flex items-center justify-between w-full lg:px-24 lg:py-16 md:px-16 md:py-10 px-14 py-8">
         <Link href="/">
           {" "}
           <Image alt="React Conference" src={Logo} />{" "}

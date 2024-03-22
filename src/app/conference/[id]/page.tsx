@@ -100,7 +100,7 @@ const Home: React.FC<{ params: { id: string } }> = ({ params }) => {
 
   return (
     <>
-      <div className="w-full px-36 py-2 min-h-[60vh]">
+      <div className="w-full lg:px-24 md:px-16 px-14 py-2 min-h-[60vh]">
         <div className="my-4 space-y-3">
           <h1 className="font-bold text-3xl">{data?.conference?.name}</h1>
           <p className="text-xs text-gray-600">{data?.conference?.slogan}</p>
