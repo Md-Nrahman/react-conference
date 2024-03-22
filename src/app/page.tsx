@@ -2,6 +2,7 @@ import Conferences from "@/components/homepage/Conferences";
 import OurSponsor from "@/components/homepage/OurSponsor";
 import Image from "next/image";
 import Link from "next/link";
+import { ImArrowLeft } from "react-icons/im";
 import Circle from "../assets/circle.png";
 import Coder from "../assets/coder.png";
 import Ornament from "../assets/ornament.png";
@@ -78,8 +79,8 @@ export default function Home() {
           />
         </div>
 
-        <button className="-rotate-90 absolute left-1/2 -translate-x-1/2 bottom-24 text-xs font-medium">
-          Scroll Down
+        <button className="-rotate-90 absolute flex items-center space-x-3 left-1/2 -translate-x-1/2 bottom-24 text-xs font-medium">
+          <ImArrowLeft /> <span>Scroll Down</span>
         </button>
       </section>
       <Conferences />
